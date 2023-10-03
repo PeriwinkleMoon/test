@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten&display=swap');
+
+.hero-image {
+    background-image: url("bg.png"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 100vh; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.bonheader {
+    padding: 30px;
+    font-family: 'Gluten', 'comic sans', sans-serif;
+    display: inline-flex;
+    background-color: rgb(241, 184, 109, 0.8);
+    text-align: center;
+    margin: 0 30%;
+}
+.bonn {
+    display: inline-flex;
+}
+h1 {
+    text-align: center;
+}
+.center {
+    display: inline-flex;
+    font-size: xx-large;
+}
+

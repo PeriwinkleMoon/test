@@ -155,3 +155,7 @@ footer p {
     color: var(--secondary-color);
     padding: .6em;
 }
+a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
