@@ -1,14 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Indie+Flower&family=Laila:wght@500&family=Qwigley&display=swap');
 :root {
---primary-color: #1B998B;
+--primary-color: #9793cc;
 --secondary-color: #F8F1FF;
 --tertiary-color: #DECDF5;
---quaternary-color: #7a7088;
---quinary-color: #363b4e;
+--quaternary-color: #C4CCFA;
+--quinary-color: #3B6DDA;
+--accent: #ED96FF;
+
+--header-font: 'Indie Flower';
 }
 * {
     margin: 0;
     padding: 0;
-    font-family: 'poppins', sans-serif;
+    font-family: 'Laila', sans-serif;
     box-sizing: border-box;
 }
 .header {
@@ -33,6 +38,8 @@
     box-sizing: border-box;
     color: #fff;
     margin: 0;
+    letter-spacing: .1em;
+    font-size: 40px;
 }
 .nav-links {
     padding: 28px 28px;
@@ -48,6 +55,9 @@
 .page-link{
     text-decoration: none;
     color: var(--secondary-color);
+    font-family: var(--header-font);
+    font-size: 25px;
+    letter-spacing: .1em;
     padding: 5px 0;
 }
 .page-link:hover {
@@ -56,8 +66,8 @@
     padding: 28px 28px;
 }
 .page-link::after {
-    content: '';
-    background: var(--primary-color);
+    content: ' ';
+    background: var(--accent);
     width: 0;
     height: 2px;
     position: absolute;
@@ -73,18 +83,26 @@
 h1 {
     color: #363b4e;
     margin-bottom: .5em;
+    font-family: var(--header-font);
 }
 p {
     color: #363b4e;
     margin-left: 1em;
-}
 
+}
 .main-body {
-    height: 100vh;
+    height: 105vh;
     width: 100%;
     padding: 2% 12%;
     background: var(--secondary-color);
     position: relative;
+}
+.sub-body {
+    background: var(--quaternary-color);
+    border-radius: 10%;
+}
+.sub-body quote, .sub-body p {
+    margin-right: 32%;
 }
 .about-me {
     margin: 4% 3%;
@@ -96,9 +114,43 @@ p {
     float: right;
     margin-left: 2em;
     margin-right: 5%;
-    margin-top: 2%;
     border-radius: 20%;
 }
 .about-me p{
     padding: 10px;
+}
+quote {
+    font-style: italic;
+    font-size: x-large;
+    font-family: serif;
+}
+.q-marks {
+    font-size: 30px;
+}
+.sub-quote {
+    font-size: 35px;
+    padding: 1em;
+    font-family: 'Amatic SC', Times, serif;
+}
+.sub-quote2 {
+    font-size: 40px;
+    padding: .5em;
+    font-family: 'Qwigley', 'Lucida Sans', Verdana, sans-serif;
+    font-weight: lighter;
+}
+h2 {
+    font-family: var(--header-font);
+    letter-spacing: .1em;
+    font-size: 30px;
+
+}
+
+/* FOOTER */
+
+footer {
+    background: var(--primary-color);
+}
+footer p {
+    color: var(--secondary-color);
+    padding: .6em;
 }
