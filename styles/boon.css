@@ -2,11 +2,12 @@
 
 .hero-image {
     background-image: url("bg.png"); /* The image used */
-    background-color: #cccccc; /* Used if the image is unavailable */
+    background-color: #ffffff; /* Used if the image is unavailable */
     height: 100vh; /* You must set a specified height */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
+    text-align: center;
 }
 
 .bonheader {
@@ -15,10 +16,14 @@
     display: inline-flex;
     background-color: rgb(241, 184, 109, 0.8);
     text-align: center;
-    margin: 0 30%;
+}
+.side {
+    width: 20%;
+    padding: 0 5%;
 }
 .bonn {
     display: inline-flex;
+    width: 22%;
 }
 h1 {
     text-align: center;
@@ -27,4 +32,10 @@ h1 {
     display: inline-flex;
     font-size: xx-large;
 }
-
+.weemo {
+    margin: 0 5%;
+}
+.weemo img {
+    display: inline-block;
+    height: 250px;
+}
