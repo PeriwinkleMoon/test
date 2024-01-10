@@ -1,0 +1,99 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Karla&display=swap');
+
+body {
+    margin: 0 5%;
+    background-color: hotpink;
+    font-family: "Karla", sans-serif;
+}
+
+#content-header {
+    background-color: rgb(240, 179, 209);
+    display: flex;
+    align-items: center;
+    height: 65px;
+}
+#content-header h1 {
+    color: rgb(255, 255, 255);
+    padding-left: 10px;
+    text-decoration: underline white;
+}
+#content-header img {
+    float: left;
+    width: 50px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.main-column {
+    background-color: rgb(255, 236, 244);
+    display: flex;
+}
+
+#site-navigation {
+    margin: 0 auto;
+    background-color: #f7c9e0;
+}
+#sidebar {
+    padding: 15px;
+    width: 160px;
+}
+#top-nav {
+    margin-bottom: 50px;
+}
+.nav-label {
+    background-color: rgb(240, 179, 209);
+    padding-top: 5px;
+    padding-bottom: 7px;
+    padding-left: 5px;
+    margin-bottom: -15px;
+}
+ul {
+    list-style-type: none;
+    background-color: white;
+    padding-bottom: 5px;
+}
+.nav-list-item {
+    font-family: "Comfortaa", sans-serif;
+    line-height: 2.5em;
+    margin-left: -30px;
+}
+a {
+    color: deeppink;
+    text-decoration: none;
+    border-bottom: 1px solid #f7c9e0;
+}
+a:hover {
+    color: hotpink;
+    text-decoration: none;
+    border-bottom: 1px solid hotpink;
+}
+
+
+#page-block {
+    padding: 40px;
+    padding-top: 0;
+}
+#page-block img {
+    width: 100%;
+}
+/* PANTHEON CSS */
+
+#pantheon-page {
+    width: 100%;
+}
+.pan-grid {
+    margin: 0 auto;
+    padding-left: 20px;
+}
+.pan-img-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+    width: 90%;
+}
+.pan-img-grid img {
+    max-width: 400px;
+    padding: 50px;
+    padding-left: 30px;
+}

@@ -1,0 +1,144 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Indie+Flower&family=Laila:wght@500&family=Qwigley&display=swap');
+:root {
+--primary-color: #42361E;
+--secondary-color: #8DAA9D;
+--tertiary-color: #8DAA9D;
+--quaternary-color: #a5c2b5;
+--quinary-color: #8D6F30;
+--accent: #CDA408;
+--dark-text: #42361E;
+
+--header-font: 'Indie Flower';
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Laila', sans-serif;
+    box-sizing: border-box;
+}
+.header {
+    height: 50%;
+    width: 100%;
+    padding: 0 8%;
+    background: var(--primary-color);
+    position: relative;
+    text-align: center;
+}
+.image-box {
+    position: relative;
+}
+.logo, .h1 {
+    width: 100%;
+}
+.h1 {
+    position: absolute;
+    padding: 10px;
+    bottom: 0;
+    left: 0;
+    box-sizing: border-box;
+    color: #fff;
+    margin: 0;
+    letter-spacing: .1em;
+    font-size: 40px;
+}
+.nav-links {
+    padding: 28px 28px;
+    margin-right: 2vw;
+    background: var(--quinary-color);
+    width: 100%;
+    position: relative;
+}
+.nav-links li {
+    display: inline-block;
+    margin: 0 2em
+}
+.page-link{
+    text-decoration: none;
+    color: var(--accent);
+    font-family: var(--header-font);
+    font-size: 25px;
+    letter-spacing: .1em;
+    padding: 5px 0;
+}
+.page-link:hover {
+    color: var(--primary-color);
+    background-color: var(--accent);
+    padding: 28px 28px;
+}
+.page-link::after {
+    content: ' ';
+    background: var(--accent);
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.5s;
+}
+.page-link:hover::after {
+    width: 100%;
+}
+/* MAIN BODY */
+
+h1 {
+    color: var(--dark-text);
+    margin-bottom: .5em;
+    font-family: var(--header-font);
+}
+p {
+    color: var(--dark-text);
+    margin-right: 1em;
+
+}
+.main-body {
+    height: 105vh;
+    width: 100%;
+    padding: 2% 12%;
+    background: var(--secondary-color);
+    position: relative;
+    text-align: right;
+}
+.sub-body {
+    background: var(--quaternary-color);
+    border-radius: 10%;
+}
+.sub-body quote, .sub-body p {
+    margin-left: 32%;
+}
+.about-me {
+    margin: 4% 3%;
+    padding: 1em;
+    text-align: left;
+}
+.portrait {
+    width: 32%;
+    float: left;
+    margin-right: 2em;
+    margin-left: 5%;
+    border-radius: 20%;
+}
+.about-me p{
+    padding: 10px;
+}
+
+h2 {
+    font-family: var(--header-font);
+    letter-spacing: .1em;
+    font-size: 30px;
+
+}
+
+/* FOOTER */
+
+footer {
+    background: var(--primary-color);
+}
+footer p {
+    color: var(--accent);
+    padding: .6em;
+}
+a {
+    text-decoration: none;
+    color: var(--accent);
+}
